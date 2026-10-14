@@ -1,0 +1,13 @@
+
+{
+  "servers": {
+    "confluence-dc": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/server.js"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
